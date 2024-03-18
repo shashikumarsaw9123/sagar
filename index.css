@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#Big{
+    width: 100%;
+    height: 3000px;
+    background-color:rgb(11, 11, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#Big .Small{
+    width: 85%;
+    
+}
+#Big #navcontainer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+#navcontainer .nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    overflow-y: hidden;
+    background-color: red;
+    
+    
+}
+#navcontainer .nav .logo{
+    font-size: 35px;
+}
+#navcontainer .nav .bars{
+    font-size: 30px;
+    display: none;
+}
+#navcontainer .nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: "Kranky", serif;
+}  
+#navcontainer .nav ul li:hover{
+    color: aqua;
+}
+button:hover{
+    cursor: pointer;
+}
+#navcontainer .nav button{
+    width: 80px;
+    height: 30px;
+    font-family: "PT Serif", serif;
+    background: linear-gradient(95deg,aqua,purple);
+    border: none;
+    border-radius: 5px;
+   
+}
+.work{
+    margin-left: 40px;
+    height: 220px;
+}
+.work p{
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
+    color: grey;
+}
+.work h2{
+    font-family: "DM Serif Text", serif;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.work h2 A{
+    color: aqua;
+    font-size: 36px;
+}
+.work button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(75deg,aqua,purple);
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+#Big .Small .photo{
+    
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+}
+.photo .pic{
+    width: 240px;
+    height: 290px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    
+}
+
+.photo .pic img{
+    width: 240px;
+    height: 290px;
+    position: relative;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 10px;
+
+}
+.photo .about{
+    display: flex;
+    align-items: center;
+}
+.photo .text .but{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+.photo .text .but #color{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(75deg,aqua,purple);
+    font-family: "PT Serif", serif;
+    font-weight: bolder;
+}
+.photo .text .but .color{
+    width: 110px;
+    height: 30px;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    font-family: "PT Serif", serif;
+    font-weight: bolder;
+}
+#port{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Small .port{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port .folio{
+    width: 700px;
+    height: 100%;
+    
+}
+.port .folio ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.port .folio ul li:hover{
+    color: aqua;
+}
+#proj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#proj .proj{
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+#proj .proj .proj1 h1{
+    color: aquamarine;
+    font-family: "PT Serif", serif;
+    font-size: 27px;
+}
+#proj .proj .proj1 ul{
+    list-style: disclosure-closed;
+}
+#proj .pic1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+#proj .pic1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    right: 25px;
+}
+#project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#project #proj2{
+    width: 1020px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#project #proj2 .para h1{
+    color: aquamarine;
+    font-family: "PT Serif", serif;
+    font-size: 27px;
+}
+#project #proj2 .para ul{
+    list-style: disclosure-closed;
+}
+#project #proj2 .pic{
+    width: 200px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+#proj2 .pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+#proj3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#proj3 .proj3{
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+#proj3 .proj3 .proj h1{
+    color: aquamarine;
+    font-family: "PT Serif", serif;
+    font-size: 27px;
+}
+#proj3 .proj3 .proj ul{
+    list-style: disclosure-closed;
+}
+#proj3 .pic3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+#proj3 .pic3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    right: 25px;
+}
+#project4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#project4 #proj4{
+    width: 1020px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#project4 #proj4 .para h1{
+    color: aquamarine;
+    font-family: "PT Serif", serif;
+    font-size: 27px;
+}
+#project4 #proj4 .para4 ul{
+    list-style: disclosure-closed;
+}
+#project4 #proj4 .pic4{
+    width: 200px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+}
+#proj4 .pic4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+    
+    
+}
+.bttn button{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(75deg,aqua,purple);
+    font-family: "PT Serif", serif;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.vit{
+    width: 100%;
+    height: 550px;
+  
+    
+    
+}
+.vit .edi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.vit .edi .one{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(30deg,aqua,blueviolet,rgba(128, 0, 128, 0.521),rgba(0, 255, 255, 0.925));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vit .edi .one .colr{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(11, 11, 41);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.vit .edi .one .colr h3{
+    margin: 10px;
+    font-family: "PT Serif", serif;
+    color: aquamarine;
+}
+.vit .edi .one .colr p{
+    margin-left: 10px;
+}
+.vit .edi .one .colr:hover{
+    width: 97%;
+    height: 97%;
+    box-shadow: 0px 0px 100px aqua;
+}
+.vit .edi .two{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(30deg,aqua,blueviolet,rgba(128, 0, 128, 0.521),rgba(0, 255, 255, 0.925));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vit .edi .two .colr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 41);
+    border-radius: 10px;
+    
+
+}
+.vit .edi .two .colr h3{
+    margin: 10px;
+    font-family: "PT Serif", serif;
+    color: aquamarine;
+}
+.vit .edi .two .colr p{
+    margin-left: 10px;
+}
+.vit .edi .two .colr:hover{
+    width: 97%;
+    height: 97%;
+    box-shadow: 0px 0px 100px aqua;
+}
+.vit .redi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+
+}
+.vit .redi .three{
+    width: 300px;
+    height: 200px;
+    background:  linear-gradient(30deg,aqua,blueviolet,rgba(128, 0, 128, 0.521),rgba(0, 255, 255, 0.925));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.vit .redi .three .colr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 41);
+    border-radius: 10px;
+    
+
+}
+.vit .redi .three .colr h3{
+    margin: 10px;
+    font-family: "PT Serif", serif;
+    color: aquamarine;
+}
+.vit .redi .three .colr p{
+    margin-left: 10px;
+}
+.vit .redi .three .colr:hover{
+    width: 97%;
+    height: 97%;
+    box-shadow: 0px 0px 100px aqua;
+}
+.vit .redi .four{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(30deg,aqua,blueviolet,rgba(128, 0, 128, 0.521),rgba(0, 255, 255, 0.925));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vit .redi .four .colr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 41);
+    border-radius: 10px;
+    
+
+}
+.vit .redi .four .colr h3{
+    margin: 10px;
+    font-family: "PT Serif", serif;
+    color: aquamarine;
+}
+.vit .redi .four .colr p{
+    margin-left: 10px;
+}
+.vit .redi .four .colr:hover{
+    width: 97%;
+    height: 97%;
+    box-shadow: 0px 0px 100px aqua;
+}
+#Big .Small .ex{
+    display: flex;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+}
+#Big .Small .exp{
+    display: flex;
+    justify-content: space-around;
+}
+#Big .Small .exp img{
+    width: 150px;
+    height: 150px;
+   
+}
+#Big .Small .exo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#Big .Small .exo img{
+    width: 130px;
+    height: 150px;
+   
+}
+#last{
+    width: 100%;
+    height: 100%;
+
+}
+#last #footer{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(120deg,purple,aqua);
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+    bottom: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#footer .foot{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#footer .foot h3{
+    color:white;
+   
+}
+#footer .double{
+    display: flex;
+    justify-content: space-around;
+
+}
+#footer .double .on {
+    /* margin: 20px; */
+}
+#footer .double .on h3{
+    color: white;
+
+}
+#footer .double .on p{
+    color: rgba(255, 255, 255, 0.801);
+}
+
+#footer .double .on p{
+    margin-top: 15px;
+}
+#footer .double .on ul{
+    margin-top: 15px;
+    font-weight: bolder;
+    list-style: none;
+    color: white;
+    line-height: 40px;
+    
+}
+
+
+#footer .catch{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: white;
+}
+#footer .double .off .bar{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 7px 5px 10px;
+    background: linear-gradient(50deg,purple,aqua);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+#footer .double .off .bar input{
+   width: 90%;
+   height: 40px;
+   background-color: black;
+   border: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   color: rgba(255, 255, 255, 0.76);
+   outline: none;
+   padding-left: 10px;
+   
+}
+::placeholder{
+    color: white;
+}
+#footer .double .off .bar #box2{
+    height: 85px;
+}
+#footer .double button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-right: 190px;
+    margin-top:20px ;
+    
+}.catch{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.catch i{
+    margin: 15px;
+    font-size: 35px;
+}
+.catch .jo{
+    margin-top: 30px;
+}
+.catch .cat{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:800px) {
+    #Big{
+        height: 3400px;
+    }
+    #navcontainer .nav ul{
+        display: none;
+    }
+    #navcontainer .nav .bars{
+        display: block;
+    }
+    .vit .edi{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .vit .redi{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    #Big .Small .exp{
+        margin-top: 430px;
+    }
+    
+}
+@media screen and (max-width:650px){
+    #Big{
+        height: 4200px;
+    }
+    #Big .Small .photo{
+        flex-direction: column;
+        align-items: center;
+    }
+    #proj{
+        height: 450px;
+        display: flex;
+        gap:20px;
+    }
+
+    #proj .proj{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    #proj .proj .proj1 h1{
+        font-size: 22px;
+    }
+    #proj .proj .proj1 h2{
+        font-size: 18px;
+    }
+    #project{
+        height: 400px;
+        
+    }
+    #project #proj2{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #project #proj2 .para{
+        margin-top: 20px;
+    }
+    #project #proj2 .para h1{
+        font-size: 22px;
+    }
+    #project #proj2 .para h2{
+        font-size: 18px;
+    }
+    #proj3{
+        height: 420px;
+        gap:20px;
+    }
+    #proj3 .proj3{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #proj3 .proj3 .proj h1{
+        font-size: 22px;
+    }
+    #proj3 .proj3 .proj h2{
+        font-size: 18px;
+    }
+    #project4{
+        height: 400px;
+        
+    }
+    #project4 #proj4{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #project4 #proj4 .para4{
+        margin-top: 20px;
+    }
+    #project4 #proj4 .para4 h1{
+        font-size: 22px;
+    }
+    #project4 #proj4 .para4 h2{
+        font-size: 18px;
+    }
+    #footer .double{
+        flex-direction: column;
+        align-items: center;
+    }
+    #last #footer{
+        height: 695px;
+    }
+    #Big .Small .exp img{
+        width: 100px;
+        height: 100px;
+    }
+    #Big .Small .exo img{
+        width: 80px;
+        height: 80px;
+    }
+    #footer .catch .go i{
+        font-size: 28px;
+    }
+    #footer .catch .cat i{
+        font-size: 20px;
+    }
+
+
+}
